@@ -6,7 +6,7 @@ import org.junit.Test;
 public class AppTest {
     @Test
     public void testAddition() {
-        assertEquals(5.0, App.calculate(2, 3, '+'), 0.001);
+        assertEquals(6.0, App.calculate(3, 3, '+'), 0.001);
     }
 
     @Test
